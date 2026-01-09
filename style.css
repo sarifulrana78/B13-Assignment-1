@@ -1,0 +1,17 @@
+/* Base Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
