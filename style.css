@@ -282,6 +282,10 @@ body {
 
 .footer__social-group {
     text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 12px;
 }
 
 .footer__social-icons {
