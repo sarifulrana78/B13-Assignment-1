@@ -94,3 +94,41 @@ body {
     justify-content: center;
     text-align: center;
 }
+.hero__badge{
+    background-color: #ffffff;
+    color: #469165;
+    padding: 0 16px;
+    border-radius: 1000px;
+    height: 35px;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    margin-bottom: 24px;
+
+}
+.hero__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.hero__title--main{color: #ffffff;}
+.hero__title--accent{color: #ffffff;}
+
+
+.hero__description {
+    color: #ffffff; 
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.hero__actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
