@@ -235,3 +235,73 @@ body {
     font-weight: 500;
     color: #333;
 }
+.cta {
+    width: 90%;
+    max-width: 1360px;
+    margin: 0 auto;
+    background-color: #f7f6f2; 
+    border-radius: 12px;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.cta__title {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.cta__text {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 32px;
+}
+
+.cta__button {
+    margin: 0 auto 12px;
+}
+
+.cta__small-text {
+    display: block;
+    color: #888888; 
+    font-size: 14px;
+}
+
+
+.footer {
+    background-color: #001931; 
+    color: #ffffff; 
+    padding: 120px 120px 30px;
+    margin-top: 60px;
+}
+
+.footer__main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.footer__social-group {
+    text-align: right;
+}
+
+.footer__social-icons {
+    display: flex;
+    gap: 16px;
+    margin-top: 12px;
+}
+
+.footer__social-link {
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.footer__copyright {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+}
+
+.footer__copyright p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+}
