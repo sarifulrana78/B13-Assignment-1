@@ -147,4 +147,38 @@ body {
     color: #868383;
     font-size: 16px;
 }
+.features-grid__row {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
 
+.feature-card {
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0px 6px 50px 0 rgba(0,0,0,0.18);
+}
+
+.feature-card__icon {
+    background-color: #F95555; 
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.feature-card__title {
+    font-size: 15px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.feature-card__text {
+    font-size: 16px;
+    color: #474747; 
+    line-height: 26px;
+}
